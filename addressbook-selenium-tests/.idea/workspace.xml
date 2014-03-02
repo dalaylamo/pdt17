@@ -4,9 +4,14 @@
     <list default="true" id="88786d48-95c7-4233-b674-d2b4e22dd5c7" name="Default" comment="" />
     <ignored path="addressbook-selenium-tests.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393772429733" ignored="false" />
-    <file path="/GroupCreationTests.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393780340195" ignored="false" />
-    <file path="/fragment.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393774691834" ignored="false" />
+    <file path="/Dummy.txt" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393795659372" ignored="false" />
+    <file path="/GroupCreationTests.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393794970637" ignored="false" />
+    <file path="/fragment.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393797571893" ignored="false" />
+    <file path="/GroupData.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393793529142" ignored="false" />
+    <file path="/TestBase.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393795531444" ignored="false" />
+    <file path="/testNew.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393798425596" ignored="false" />
+    <file path="/TestNew.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393798284987" ignored="false" />
+    <file path="/ContactData.java" changelist="88786d48-95c7-4233-b674-d2b4e22dd5c7" time="1393798843144" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +72,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GroupCreationTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
+      <file leaf-file-name="GroupCreationTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/hw1/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="51" selection-start="201" selection-end="201" vertical-scroll-proportion="0.36956522">
+            <state line="3" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/hw1/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com.example.hw2/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="5" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-2.6842105">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestContact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.example.hw2/TestContact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="41" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com.example.hw2/ContactData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="85" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/hw1/GroupData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +151,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/GroupData.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/com/example/hw1/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/testNew.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/TestNew.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/ContactData.java" />
+        <option value="$PROJECT_DIR$/src/com.example.hw2/TestContact.java" />
       </list>
     </option>
   </component>
@@ -185,7 +246,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="com.example.hw2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,24 +302,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.com.example.tests in addressbook-selenium-tests">
+  <component name="RunManager" selected="TestNG.TestContact">
     <configuration default="false" name="All in addressbook-selenium-tests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -255,14 +335,14 @@
     <configuration default="false" name="GroupCreationTests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files (x86)/Java/jre7" />
+      <option name="PACKAGE_NAME" value="com.example.hw1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw1.GroupCreationTests" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -274,17 +354,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="com.example.tests in addressbook-selenium-tests" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="com.example.hw1 in addressbook-selenium-tests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.example.hw1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -292,6 +372,64 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.example.hw2" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example.hw2" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestContact" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example.hw2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw2.TestContact" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -384,16 +522,80 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="GroupCreationTests" type="TestNG" factoryName="TestNG">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files (x86)/Java/jre7" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw1.GroupCreationTests" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.example.hw1" type="TestNG" factoryName="TestNG">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.example.hw1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in addressbook-selenium-tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.GroupCreationTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.com.example.tests in addressbook-selenium-tests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.com.example.hw1 in addressbook-selenium-tests" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.com.example.hw1" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.com.example.hw2" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.TestContact" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.example.tests in addressbook-selenium-tests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GroupCreationTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in addressbook-selenium-tests" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestContact" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.com.example.hw2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.example.hw1 in addressbook-selenium-tests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GroupCreationTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in addressbook-selenium-tests" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -429,11 +631,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -445,11 +648,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6916525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30834752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -533,9 +735,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/hw1/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="201" selection-end="201" vertical-scroll-proportion="0.36956522">
+        <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hw1/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/hw1/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.example.hw2/TestContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.example.hw2/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="85" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.example.hw2/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-2.6842105">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
