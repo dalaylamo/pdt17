@@ -1,4 +1,4 @@
-package com.example.hw2;
+package com.example.hw1;
 
 public class ContactData {
     private  String firstName;

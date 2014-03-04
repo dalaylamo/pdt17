@@ -1,13 +1,13 @@
-package com.example.hw2;
+package com.example.hw1;
 
-    import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
-public class TestContact extends TestBase{
+public class TestContact extends TestBase {
 
     @Test
         public void testCreatingContact() throws Exception {
-            openMain();
-            clickAddNew();
+            openMainPage();
+            clickAddNewContact();
 
             ContactData contactData = new ContactData();
             contactData.setFirstName("First name");
