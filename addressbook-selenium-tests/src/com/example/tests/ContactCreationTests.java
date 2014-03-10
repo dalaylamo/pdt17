@@ -1,13 +1,13 @@
-package com.example.hw1;
+package com.example.tests;
 
 import org.testng.annotations.Test;
 
-public class TestContact extends TestBase {
+public class ContactCreationTests extends TestBase {
 
     @Test
         public void testCreatingContact() throws Exception {
-            openMainPage();
-            clickAddNewContact();
+            app.navigationHelper.openMainPage();
+            app.contactHelper.initContactCreation();
 
             ContactData contactData = new ContactData();
             contactData.setFirstName("First name");
@@ -25,8 +25,8 @@ public class TestContact extends TestBase {
             contactData.setAddressSecond("second address");
             contactData.setPhoneSecond("second phone");
 
-            fillOutForm(contactData);
-            clickSubmit();
+            app.contactHelper.fillOutForm(contactData);
+            app.contactHelper.submitContactCreation();
         }
 
 }
