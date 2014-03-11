@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class GroupModificationTests extends TestBase {
 
     @Test
-    public void deleteSomeGrouop(){
+    public void testModificationName(){
         app.getNavigationHelper().openMainPage();
         app.getNavigationHelper().gotoGroupsPage();
         app.getGroupHelper().initGroupModification(1);
@@ -15,4 +15,30 @@ public class GroupModificationTests extends TestBase {
         app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupsPage();
     }
+
+    @Test
+    public void testModificationHeader(){
+        app.getNavigationHelper().openMainPage();
+        app.getNavigationHelper().gotoGroupsPage();
+        app.getGroupHelper().initGroupModification(1);
+        GroupData group = new GroupData();
+        group.setHeader("new Header");
+        app.getGroupHelper().fillGroupForm(group);
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToGroupsPage();
+    }
+
+    @Test
+    public void testModificationFooter(){
+        app.getNavigationHelper().openMainPage();
+        app.getNavigationHelper().gotoGroupsPage();
+        app.getGroupHelper().initGroupModification(1);
+        GroupData group = new GroupData();
+        group.setFooter("new Footer");
+        app.getGroupHelper().fillGroupForm(group);
+        app.getGroupHelper().submitGroupModification();
+        app.getGroupHelper().returnToGroupsPage();
+    }
+
 }
+

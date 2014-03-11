@@ -2,7 +2,7 @@ package com.example.fw;
 
 import com.example.tests.ContactData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.Select;
+
 
 
 public class ContactHelper extends HelperBase {
@@ -36,4 +36,19 @@ public class ContactHelper extends HelperBase {
         type(By.name("phone2"), contactData.getPhoneSecond());
     }
 
+    public void selectContactByIndex(int index){
+        click(By.id("id" + index));
+    }
+
+    public void initContactModificationByIndex(int i) {
+        click(By.xpath("//a[@href='edit.php?id=" + i + "']"));
+    }
+
+    public void clickDeleteContactButton(){
+        click(By.xpath("//input[@value='Delete']"));
+    }
+
+    public void clickUpdateButton() {
+        click(By.xpath("//input[@value='Update']"));
+    }
 }

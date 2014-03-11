@@ -21,7 +21,7 @@ public class ContactCreationTests extends TestBase {
             contactData.setDayOfBirth("31");
             contactData.setMonthOfBirth("March");
             contactData.setYearOfBirth("1985");
-            contactData.setSelectGroup("group 1");
+            //contactData.setSelectGroup("group 1");
             contactData.setAddressSecond("second address");
             contactData.setPhoneSecond("second phone");
 

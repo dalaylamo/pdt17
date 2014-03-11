@@ -1,14 +1,9 @@
 package com.example.fw;
 
-import com.example.tests.ContactData;
-import com.example.tests.GroupData;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
-
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.fail;
 
 
 public class ApplicationManager {
