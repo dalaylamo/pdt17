@@ -6,8 +6,8 @@ public class ContactCreationTests extends TestBase {
 
     @Test
         public void testCreatingContact() throws Exception {
-            app.navigationHelper.openMainPage();
-            app.contactHelper.initContactCreation();
+            app.getNavigationHelper().openMainPage();
+            app.getContactHelper().initContactCreation();
 
             ContactData contactData = new ContactData();
             contactData.setFirstName("First name");
@@ -25,8 +25,8 @@ public class ContactCreationTests extends TestBase {
             contactData.setAddressSecond("second address");
             contactData.setPhoneSecond("second phone");
 
-            app.contactHelper.fillOutForm(contactData);
-            app.contactHelper.submitContactCreation();
+            app.getContactHelper().fillOutForm(contactData);
+            app.getContactHelper().submitContactCreation();
         }
 
 }
