@@ -1,3 +1,3 @@
 pdt17
 =====
-New repository. Tra-ta-ta.
+Repository for training "Java programming for testers"
