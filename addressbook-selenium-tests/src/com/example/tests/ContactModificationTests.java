@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class ContactModificationTests extends TestBase {
 
     @Test
-    public void testAddressModification(){
+    public void testAddressModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -17,7 +17,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testAddressSecondModification(){
+    public void testAddressSecondModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -27,7 +27,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testEmailFirstModification(){
+    public void testEmailFirstModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -37,7 +37,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testEmailSecondModification(){
+    public void testEmailSecondModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -47,7 +47,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testHomePhoneModification(){
+    public void testHomePhoneModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -57,7 +57,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testFirstNameModification(){
+    public void testFirstNameModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -67,7 +67,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testLastNameModification(){
+    public void testLastNameModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -77,7 +77,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testMobilePhoneModification(){
+    public void testMobilePhoneModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -87,7 +87,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testPhoneSecondModification(){
+    public void testPhoneSecondModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -97,7 +97,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testWorkPhoneModification(){
+    public void testWorkPhoneModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();
@@ -107,7 +107,7 @@ public class ContactModificationTests extends TestBase {
     }
 
     @Test
-    public void testDateOfBirthModification(){
+    public void testDateOfBirthModification() {
         app.getNavigationHelper().openMainPage();
         app.getContactHelper().initContactModificationByIndex(3);
         ContactData contact = new ContactData();

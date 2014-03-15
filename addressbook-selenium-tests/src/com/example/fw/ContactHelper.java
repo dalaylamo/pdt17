@@ -41,7 +41,8 @@ public class ContactHelper extends HelperBase {
     }
 
     public void initContactModificationByIndex(int i) {
-        click(By.xpath("//a[@href='edit.php?id=" + i + "']"));
+       // click(By.xpath("//a[@href='edit.php?id=" + i + "']"));
+        click(By.xpath("//table/tbody/tr[" + (i + 1) + "]/td[7]"));
     }
 
     public void clickDeleteContactButton(){

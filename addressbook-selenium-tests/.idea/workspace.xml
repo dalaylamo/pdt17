@@ -69,95 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContactHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.12734082" vertical-offset="0" max-vertical-offset="1037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/GroupHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="901">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactModificationTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="63" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContactRemovalTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="64" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="9" column="63" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactCreationTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
+      <file leaf-file-name="ContactHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelperBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="765">
-              <folding>
-                <element signature="method#closeAlertAndGetItsText#0;class#HelperBase#0" expanded="false" />
-                <element signature="method#isAlertPresent#0;class#HelperBase#0" expanded="false" />
-                <element signature="method#isElementPresent#0;class#HelperBase#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupCreationTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="87" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="35" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2669">
+            <state line="42" column="53" selection-start="1470" selection-end="1507" vertical-scroll-proportion="0.6493056" vertical-offset="510" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -206,10 +130,10 @@
         <option value="$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/contactModificationTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fw/ContactHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fw/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java" />
       </list>
     </option>
   </component>
@@ -245,20 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-selenium-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-selenium-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems">
           <PATH>
@@ -346,6 +256,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,6 +293,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -378,7 +303,7 @@
       <recent name="C:\GIT\pdt17\addressbook-selenium-tests\src\com\example\hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTests">
+  <component name="RunManager" selected="TestNG.ContactRemovalTests">
     <configuration default="false" name="ContactRemovalTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -742,11 +667,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactModificationTests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ContactCreationTests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testAddressModification" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testDateOfBirthModification" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ContactModificationTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreationTests" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testAddressModification" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testDateOfBirthModification" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -781,7 +706,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -847,11 +772,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="952">
-          <folding>
-            <element signature="method#closeAlertAndGetItsText#0;class#HelperBase#0" expanded="false" />
-            <element signature="method#isAlertPresent#0;class#HelperBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#HelperBase#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,67 +1040,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="87" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="63" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
+        <state line="22" column="102" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4822335" vertical-offset="89" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <element signature="method#closeAlertAndGetItsText#0;class#HelperBase#0" expanded="false" />
-            <element signature="method#isAlertPresent#0;class#HelperBase#0" expanded="false" />
-            <element signature="method#isElementPresent#0;class#HelperBase#0" expanded="false" />
-          </folding>
+        <state line="63" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.7123519" vertical-offset="633" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="346" selection-end="346" vertical-scroll-proportion="0.46023688" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.56852794" vertical-offset="55" max-vertical-offset="646">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1003">
+        <state line="25" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.19444445" vertical-offset="289" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="32" selection-end="32" vertical-scroll-proportion="0.12734082" vertical-offset="0" max-vertical-offset="1037">
+        <state line="6" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.055555556" vertical-offset="34" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="48" selection-start="772" selection-end="772" vertical-scroll-proportion="-4.0729165" vertical-offset="1547" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="63" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="53" selection-start="1470" selection-end="1507" vertical-scroll-proportion="0.6493056" vertical-offset="510" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
