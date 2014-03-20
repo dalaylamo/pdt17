@@ -3,119 +3,41 @@ package com.example.tests;
 
 import org.testng.annotations.Test;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
+import static org.testng.Assert.assertEquals;
+
 public class ContactModificationTests extends TestBase {
 
-    @Test
-    public void testAddressModification() {
+
+    @Test (dataProvider = "randomValidContactGenerator")
+    public void testContactModification(ContactData contact) {
         app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setAddress("New address");
+
+        //save old state
+        List<ContactData> oldList = app.getContactHelper().getContacts();
+
+        //modify random contact
+        Random rnd = new Random();
+        int someIndex = rnd.nextInt(oldList.size() - 1);
+
+        app.getContactHelper().initContactModificationByIndex(someIndex);
         app.getContactHelper().fillOutForm(contact);
         app.getContactHelper().clickUpdateButton();
         app.getNavigationHelper().openMainPage();
+
+        //save new state
+        List<ContactData> newList = app.getContactHelper().getContacts();
+        contact.setFirstName(contact.getFirstName() + " " + contact.getLastName());
+
+        oldList.remove(someIndex);
+        oldList.add(contact);
+        Collections.sort(oldList);
+        Collections.sort(newList);
+        assertEquals(newList, oldList);
     }
 
-    @Test
-    public void testAddressSecondModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setAddressSecond("New address Second");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
 
-    @Test
-    public void testEmailFirstModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setEmailFirst("New first email");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testEmailSecondModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setEmailSecond("New second email");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testHomePhoneModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setHomePhone("New home phone");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testFirstNameModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setFirstName("New first name");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testLastNameModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setLastName("New last name");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testMobilePhoneModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setMobilePhone("New mobile phone");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testPhoneSecondModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setPhoneSecond("New phone second");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testWorkPhoneModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setWorkPhone("New work phone");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-    }
-
-    @Test
-    public void testDateOfBirthModification() {
-        app.getNavigationHelper().openMainPage();
-        app.getContactHelper().initContactModificationByIndex(3);
-        ContactData contact = new ContactData();
-        contact.setDayOfBirth("2");
-        contact.setMonthOfBirth("January");
-        contact.setYearOfBirth("1970");
-        app.getContactHelper().fillOutForm(contact);
-        app.getContactHelper().clickUpdateButton();
-        app.getNavigationHelper().openMainPage();
-    }
 }

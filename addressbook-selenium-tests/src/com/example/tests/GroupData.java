@@ -40,7 +40,11 @@ public class GroupData implements Comparable<GroupData> {
 
     @Override
     public String toString() {
-     return "GroupData [name=" + getName() + "]";
+        return "GroupData{" +
+                "name='" + name + '\'' +
+                ", header='" + header + '\'' +
+                ", footer='" + footer + '\'' +
+                '}';
     }
 
     @Override

@@ -2,7 +2,10 @@ package com.example.fw;
 
 import com.example.tests.ContactData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class ContactHelper extends HelperBase {
@@ -42,7 +45,7 @@ public class ContactHelper extends HelperBase {
 
     public void initContactModificationByIndex(int i) {
        // click(By.xpath("//a[@href='edit.php?id=" + i + "']"));
-        click(By.xpath("//table/tbody/tr[" + (i + 1) + "]/td[7]"));
+        click(By.xpath("//table/tbody/tr[" + (i + 2) + "]/td[7]"));
     }
 
     public void clickDeleteContactButton(){
@@ -51,5 +54,18 @@ public class ContactHelper extends HelperBase {
 
     public void clickUpdateButton() {
         click(By.xpath("//input[@value='Update']"));
+    }
+
+    public List<ContactData> getContacts() {
+        List<ContactData> contacts = new ArrayList<ContactData>();
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@accept]"));
+        for (WebElement checkbox : checkboxes) {
+            ContactData contact = new ContactData();
+            String title = checkbox.getAttribute("title");
+            String field = title.substring(8,title.length() - 1);
+            contact.setFirstName(field);
+            contacts.add(contact);
+        }
+        return contacts;
     }
 }

@@ -69,13 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GroupCreationTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GroupCreationTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="80" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.3923611" vertical-offset="635" max-vertical-offset="986">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="1" column="4" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupModificationTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="56" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1479">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,23 +90,74 @@
       <file leaf-file-name="GroupData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="83" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1071">
+            <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="174" column="18" selection-start="4451" selection-end="4451" vertical-scroll-proportion="0.0" vertical-offset="1999" max-vertical-offset="2295">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactRemovalTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="8" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="697">
               <folding>
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/fw/GroupHelper.java">
+      <file leaf-file-name="GroupRemovalTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupRemovalTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="9" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1207">
+            <state line="20" column="29" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactModificationTests.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="31" selection-start="553" selection-end="553" vertical-scroll-proportion="0.4247039" vertical-offset="106" max-vertical-offset="833">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1345#1356#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="29" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1445">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+                <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+                <element signature="e#759#769#0" expanded="true" />
+                <element signature="e#1230#1240#0" expanded="true" />
+                <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+                <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactCreationTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="83" selection-start="824" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="629">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,20 +195,21 @@
         <option value="$PROJECT_DIR$/src/com/example/hw1/TestBase1.java" />
         <option value="$PROJECT_DIR$/src/com/example/hw1/TestContact.java" />
         <option value="$PROJECT_DIR$/src/com/example/hw1/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/GroupRemovalTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/fw/HelperBase.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/contactModificationTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java" />
-        <option value="$PROJECT_DIR$/src/com/example/fw/ContactHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/fw/GroupHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/GroupData.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/fw/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactData.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java" />
         <option value="$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/com/example/tests/GroupRemovalTests.java" />
       </list>
     </option>
   </component>
@@ -247,6 +306,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addressbook-selenium-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems">
           <PATH>
@@ -334,20 +407,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-selenium-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-selenium-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +442,106 @@
       <recent name="C:\GIT\pdt17\addressbook-selenium-tests\src\com\example\hw1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationTests.testEmptyGroupCreation">
+  <component name="RunManager" selected="TestNG.com.example.tests">
+    <configuration default="false" name="ContactCreationTests.testCreatingContact" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.ContactCreationTests" />
+      <option name="METHOD_NAME" value="testCreatingContact" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="47366" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContactRemovalTests.testRemoveContact" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.ContactRemovalTests" />
+      <option name="METHOD_NAME" value="testRemoveContact" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8254" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GroupRemovalTests.deleteSomeGrouop" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-selenium-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.GroupRemovalTests" />
+      <option name="METHOD_NAME" value="deleteSomeGrouop" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="ContactRemovalTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -409,117 +567,18 @@
       <envs />
       <properties />
       <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="24837" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ContactModificationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ContactModificationTests.testContactModification" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-selenium-tests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.example.tests" />
       <option name="MAIN_CLASS_NAME" value="com.example.tests.ContactModificationTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ContactCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-selenium-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.ContactCreationTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GroupCreationTests.testNonEmptyGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-selenium-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testNonEmptyGroupCreation" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="5125" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GroupCreationTests.testEmptyGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-selenium-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testEmptyGroupCreation" />
+      <option name="METHOD_NAME" value="testContactModification" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -575,6 +634,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -600,19 +672,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -735,19 +794,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.com.example.tests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ContactModificationTests" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ContactCreationTests" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testNonEmptyGroupCreation" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testEmptyGroupCreation" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testCreatingContact" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests.testRemoveContact" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GroupRemovalTests.deleteSomeGrouop" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testContactModification" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testEmptyGroupCreation" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testNonEmptyGroupCreation" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactModificationTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.ContactCreationTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactModificationTests.testContactModification" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests.testRemoveContact" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testCreatingContact" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactRemovalTests" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupRemovalTests.deleteSomeGrouop" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -782,7 +841,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -802,15 +861,15 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.6916525" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.507837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.6916525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.507837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -838,60 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="2669">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="95" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="62" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2669">
@@ -902,26 +907,29 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1785">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+            <element signature="e#759#769#0" expanded="true" />
+            <element signature="e#1230#1240#0" expanded="true" />
+            <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+            <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -933,88 +941,94 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1785">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+            <element signature="e#759#769#0" expanded="true" />
+            <element signature="e#1230#1240#0" expanded="true" />
+            <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+            <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="782">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1785">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+            <element signature="e#759#769#0" expanded="true" />
+            <element signature="e#1230#1240#0" expanded="true" />
+            <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+            <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="19" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+            <element signature="e#759#769#0" expanded="true" />
+            <element signature="e#1230#1240#0" expanded="true" />
+            <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+            <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="42" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,70 +1097,9 @@
         <state line="71" column="45" selection-start="4324" selection-end="4324" vertical-scroll-proportion="0.26174498" vertical-offset="1112" max-vertical-offset="4726" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="53" selection-start="6012" selection-end="6012" vertical-scroll-proportion="0.33221477" vertical-offset="989" max-vertical-offset="2516" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="38" selection-start="286" selection-end="286" vertical-scroll-proportion="0.35736677" vertical-offset="22" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="179" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.7123519" vertical-offset="633" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="925" selection-end="925" vertical-scroll-proportion="0.56852794" vertical-offset="55" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="144" selection-end="144" vertical-scroll-proportion="0.055555556" vertical-offset="34" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="772" selection-end="772" vertical-scroll-proportion="-4.0729165" vertical-offset="1547" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="67" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.5694444" vertical-offset="567" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="63" selection-start="278" selection-end="278" vertical-scroll-proportion="0.53125" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/NavigationHelper.java">
@@ -1156,43 +1109,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/fw/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.7418182" vertical-offset="255" max-vertical-offset="1751">
+        <state line="63" column="0" selection-start="1569" selection-end="1569" vertical-scroll-proportion="1.7834179" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="-0.11805555" vertical-offset="136" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/fw/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="9" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1207">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1345#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupRemovalTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="59" column="21" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.31835207" vertical-offset="816" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/internal/TestMethodWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="83" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1071">
+        <state line="23" column="16" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.36162362" vertical-offset="276" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="17" selection-start="12381" selection-end="12381" vertical-scroll-proportion="0.36162362" vertical-offset="3455" max-vertical-offset="4369" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="17" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.36162362" vertical-offset="1058" max-vertical-offset="2601" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="786" selection-end="786" vertical-scroll-proportion="0.36162362" vertical-offset="157" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/remote/RemoteTestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.36162362" vertical-offset="344" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="23" selection-start="11328" selection-end="11328" vertical-scroll-proportion="0.3321033" vertical-offset="4007" max-vertical-offset="6154" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/selenium-server-standalone-2.40.0.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="5163" selection-end="5163" vertical-scroll-proportion="0.35958904" vertical-offset="881" max-vertical-offset="2516" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="22" selection-start="5803" selection-end="5803" vertical-scroll-proportion="0.5277778" vertical-offset="1769" max-vertical-offset="2057" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/fw/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="46" selection-start="1711" selection-end="1711" vertical-scroll-proportion="0.6787879" vertical-offset="490" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="18" selection-start="4451" selection-end="4451" vertical-scroll-proportion="0.0" vertical-offset="1999" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="29" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1445">
           <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#TestBase#0" expanded="false" />
+            <element signature="method#tearDown#0;class#TestBase#0" expanded="false" />
+            <element signature="e#759#769#0" expanded="true" />
+            <element signature="e#1230#1240#0" expanded="true" />
+            <element signature="method#generateRandomDay#0;class#TestBase#0" expanded="false" />
+            <element signature="method#generateRandomYear#0;class#TestBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactRemovalTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="80" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.3923611" vertical-offset="635" max-vertical-offset="986">
+        <state line="1" column="4" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="56" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/GroupRemovalTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="83" selection-start="824" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/tests/ContactModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="553" selection-end="553" vertical-scroll-proportion="0.4247039" vertical-offset="106" max-vertical-offset="833">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,28 +3,31 @@ package com.example.tests;
 
 
 import static org.testng.Assert.assertEquals;
+
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+
 import java.util.List;
 import java.util.Collections;
 
+
 public class GroupCreationTests extends TestBase {
 
-    @Test
-    public void testNonEmptyGroupCreation() throws Exception {
+    @Test (dataProvider = "randomValidGroupGenerator")
+    public void testGroupCreationValidData(GroupData group) throws Exception {
         app.getNavigationHelper().openMainPage();
         app.getNavigationHelper().gotoGroupsPage();
         List<GroupData> oldList = app.getGroupHelper().getGroups();
         app.getGroupHelper().initGroupCreation();
-        GroupData group = new GroupData();
-        group.setName("group Tratata");
-        group.setHeader("header 1");
-        group.setFooter("footer 1");
         app.getGroupHelper().fillGroupForm(group);
         app.getGroupHelper().submitGroupCreation();
         app.getGroupHelper().returnToGroupsPage();
 
+        //save new state
         List<GroupData> newList = app.getGroupHelper().getGroups();
 
+        //compare states
         oldList.add(group);
         Collections.sort(oldList);
         assertEquals(newList, oldList);
@@ -32,8 +35,8 @@ public class GroupCreationTests extends TestBase {
 
     }
 
-    @Test
-    public void testEmptyGroupCreation() throws Exception {
+   /* @Test
+    public void testGroupCreationInvalidData() throws Exception {
         app.getNavigationHelper().openMainPage();
         app.getNavigationHelper().gotoGroupsPage();
         List<GroupData> oldList = app.getGroupHelper().getGroups();
@@ -47,6 +50,6 @@ public class GroupCreationTests extends TestBase {
         Collections.sort(oldList);
         assertEquals(newList, oldList);
 
-    }
+    } */
 
 }
