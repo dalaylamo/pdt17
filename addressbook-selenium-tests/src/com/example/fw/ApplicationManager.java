@@ -1,9 +1,9 @@
 package com.example.fw;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import java.util.concurrent.TimeUnit;
 
+import java.util.concurrent.TimeUnit;
 
 
 public class ApplicationManager {
@@ -16,15 +16,14 @@ public class ApplicationManager {
     private ContactHelper contactHelper;
 
 
-    public ApplicationManager(){
+    public ApplicationManager() {
         driver = new FirefoxDriver();
         baseUrl = "http://localhost/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+        driver.get(baseUrl + "/addressbookv4.1.4/");
 
 
     }
-
 
 
     public void stop() {
@@ -33,22 +32,22 @@ public class ApplicationManager {
     }
 
 
-    public NavigationHelper getNavigationHelper(){
-        if(navigationHelper == null){
-        navigationHelper = new NavigationHelper(this);
+    public NavigationHelper navigateTo() {
+        if (navigationHelper == null) {
+            navigationHelper = new NavigationHelper(this);
         }
-     return navigationHelper;
+        return navigationHelper;
     }
 
-    public GroupHelper getGroupHelper(){
-        if(groupHelper == null){
+    public GroupHelper getGroupHelper() {
+        if (groupHelper == null) {
             groupHelper = new GroupHelper(this);
         }
         return groupHelper;
     }
 
-    public ContactHelper getContactHelper(){
-        if(contactHelper == null){
+    public ContactHelper getContactHelper() {
+        if (contactHelper == null) {
             contactHelper = new ContactHelper(this);
         }
         return contactHelper;

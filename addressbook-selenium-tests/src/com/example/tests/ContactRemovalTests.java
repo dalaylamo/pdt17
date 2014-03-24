@@ -11,8 +11,9 @@ import static org.testng.Assert.assertEquals;
 public class ContactRemovalTests extends TestBase {
 
     @Test
-    public void testRemoveContact(){
-        app.getNavigationHelper().openMainPage();
+    public void testRemoveContact() {
+
+        app.navigateTo().mainPage();
 
         //save old state
         List<ContactData> oldList = app.getContactHelper().getContacts();
@@ -20,9 +21,12 @@ public class ContactRemovalTests extends TestBase {
         //remove random contact
         Random rnd = new Random();
         int someIndex = rnd.nextInt(oldList.size() - 1);
-        app.getContactHelper().initContactModificationByIndex(someIndex);
-        app.getContactHelper().clickDeleteContactButton();
-        app.getNavigationHelper().openMainPage();
+
+
+        app.getContactHelper().deleteContactByIndex(someIndex);
+
+
+        app.navigateTo().mainPage();
 
         //save new state
         List<ContactData> newList = app.getContactHelper().getContacts();

@@ -1,28 +1,24 @@
 package com.example.tests;
 
 
-
-import static org.testng.Assert.assertEquals;
-
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
-import java.util.List;
 import java.util.Collections;
+import java.util.List;
+
+import static org.testng.Assert.assertEquals;
 
 
 public class GroupCreationTests extends TestBase {
 
-    @Test (dataProvider = "randomValidGroupGenerator")
+    @Test(dataProvider = "randomValidGroupGenerator")
     public void testGroupCreationValidData(GroupData group) throws Exception {
-        app.getNavigationHelper().openMainPage();
-        app.getNavigationHelper().gotoGroupsPage();
+
+
         List<GroupData> oldList = app.getGroupHelper().getGroups();
-        app.getGroupHelper().initGroupCreation();
-        app.getGroupHelper().fillGroupForm(group);
-        app.getGroupHelper().submitGroupCreation();
-        app.getGroupHelper().returnToGroupsPage();
+
+        app.getGroupHelper().createGroup(group);
+
 
         //save new state
         List<GroupData> newList = app.getGroupHelper().getGroups();
@@ -37,8 +33,8 @@ public class GroupCreationTests extends TestBase {
 
    /* @Test
     public void testGroupCreationInvalidData() throws Exception {
-        app.getNavigationHelper().openMainPage();
-        app.getNavigationHelper().gotoGroupsPage();
+        app.navigateTo().mainPage();
+        app.navigateTo().groupsPage();
         List<GroupData> oldList = app.getGroupHelper().getGroups();
         app.getGroupHelper().initGroupCreation();
         GroupData group = new GroupData("", "", "");
