@@ -16,7 +16,7 @@ public class NavigationHelper extends HelperBase {
      }
 
     private boolean onMainPage() {
-        return driver.findElements(By.id("maintable").).size() > 0 ;
+        return driver.findElements(By.id("maintable")).size() > 0 ;
     }
 
     public void groupsPage() {
@@ -26,7 +26,7 @@ public class NavigationHelper extends HelperBase {
     }
 
     private boolean onGroupsPage() {
-        if (driver.findElements(By.name("new").).size() > 0 && driver.getTitle().contains("Groups")){
+        if (driver.findElements(By.name("new")).size() > 0 && driver.getTitle().contains("Groups")){
         return true;
         }
         else {

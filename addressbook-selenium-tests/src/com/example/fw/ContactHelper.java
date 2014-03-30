@@ -1,6 +1,8 @@
 package com.example.fw;
 
 import com.example.tests.ContactData;
+import com.example.utils.ListOf;
+import com.example.utils.SortedListOf;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -13,17 +15,20 @@ public class ContactHelper extends HelperBase {
     public static boolean CREATION = true;
     public static boolean MODIFICATION = false;
 
+    private SortedListOf<ContactData> cachedContacts;
 
-    public ContactHelper createContact(ContactData contact, boolean typeOfOperation) {
-        initContactCreation();
-        fillOutForm(contact, typeOfOperation);
-        submitContactCreation();
-        return this;
+    public SortedListOf<ContactData> getContacts() {
+        manager.navigateTo().mainPage();
+        if (cachedContacts == null) {
+            rebuildCache();
+        }
+        return cachedContacts;
     }
 
+    private void rebuildCache() {
+        manager.navigateTo().mainPage();
+        cachedContacts = new SortedListOf<ContactData>();
 
-    public List<ContactData> getContacts() {
-        List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@accept]"));
 
         for (int i = 0; i < checkboxes.size(); i++) {
@@ -31,19 +36,20 @@ public class ContactHelper extends HelperBase {
             WebElement firstName = driver.findElement(By.xpath("//tbody/tr[" + (i + 2) + "]/td[3]"));
             WebElement eMail = driver.findElement(By.xpath("//tbody/tr[" + (i + 2) + "]/td[4]/a"));
             WebElement mobilePhone = driver.findElement(By.xpath("//tbody/tr[" + (i + 2) + "]/td[5]"));
-            ContactData contact = new ContactData();
 
-            //String title = checkbox.getAttribute("title");
-            //String field = title.substring(8,title.length() - 1);
-            //contact.setFirstName(field);
+            cachedContacts.add(new ContactData().withFirstName(firstName.getText()).withLastName(lastName.getText()).withEmailFirst(eMail.getText()).withMobilePhone(mobilePhone.getText()));
 
-            contact.setFirstName(firstName.getText());
-            contact.setLastName(lastName.getText());
-            contact.setEmailFirst(eMail.getText());
-            contact.setMobilePhone(mobilePhone.getText());
-            contacts.add(contact);
         }
-        return contacts;
+
+    }
+
+
+
+    public ContactHelper createContact(ContactData contact, boolean typeOfOperation) {
+        initContactCreation();
+        fillOutForm(contact, typeOfOperation);
+        submitContactCreation();
+        return this;
     }
 
 
@@ -59,6 +65,7 @@ public class ContactHelper extends HelperBase {
 
     public void submitContactCreation() {
         click(By.name("submit"));
+        cachedContacts = null;
     }
 
     public void fillOutForm(ContactData contactData, boolean formType) {
@@ -91,16 +98,19 @@ public class ContactHelper extends HelperBase {
     }
 
     public void initContactModificationByIndex(int i) {
-       // click(By.xpath("//a[@href='edit.php?id=" + i + "']"));
-        click(By.xpath("//table/tbody/tr[" + (i + 2) + "]/td[7]"));
+        //click(By.xpath("//a[@href='edit.php?id=" + 110 + "']"));
+        String xpath = "//table/tbody/tr[" + (i + 2) + "]/td[7]/a";
+        click(By.xpath(xpath));
     }
 
     public void clickDeleteContactButton(){
         click(By.xpath("//input[@value='Delete']"));
+
     }
 
     public void clickUpdateButton() {
         click(By.xpath("//input[@value='Update']"));
+
     }
 
 
@@ -108,12 +118,14 @@ public class ContactHelper extends HelperBase {
         initContactModificationByIndex(indexOfContact);
         fillOutForm(contact, typeOfOperation);
         clickUpdateButton();
+        cachedContacts = null;
         return this;
     }
 
     public ContactHelper deleteContactByIndex(int contactIndex) {
         initContactModificationByIndex(contactIndex);
         clickDeleteContactButton();
+        cachedContacts = null;
         return this;
     }
 }

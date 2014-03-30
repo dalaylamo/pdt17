@@ -1,10 +1,10 @@
 package com.example.tests;
 
-import org.testng.annotations.Test;
-import java.util.List;
-import java.util.Collections;
 
-import static org.testng.Assert.assertEquals;
+import com.example.utils.SortedListOf;
+import org.testng.annotations.Test;
+import static org.junit.Assert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static com.example.fw.ContactHelper.CREATION;
 
 public class ContactCreationTests extends TestBase {
@@ -12,28 +12,20 @@ public class ContactCreationTests extends TestBase {
     @Test(dataProvider = "randomValidContactGenerator")
     public void testCreatingContact(ContactData contact) throws Exception {
 
-        app.navigateTo().mainPage();
 
         //save old state
-        List<ContactData> oldList = app.getContactHelper().getContacts();
+        SortedListOf<ContactData> oldList = app.getContactHelper().getContacts();
 
 
         app.getContactHelper().createContact(contact, CREATION);
 
 
-        app.navigateTo().mainPage();
-
-
         //save new state
-        List<ContactData> newList = app.getContactHelper().getContacts();
+        SortedListOf<ContactData> newList = app.getContactHelper().getContacts();
 
 
-        contact.setNull();
-        oldList.add(contact);
-        Collections.sort(newList);
-        Collections.sort(oldList);
 
-        assertEquals(newList, oldList);
+        assertThat(newList, equalTo(oldList.withAdded(contact)));
 
     }
 
